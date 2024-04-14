@@ -29,13 +29,23 @@ export default function Home() {
         </div>
       </div>
       <div className="grid animate-in grid-cols-2 grid-rows-3 gap-4 md:grid-cols-3 md:grid-rows-2 md:gap-8 px-[2rem]">
-        <Link href={'https://github.com/icaroravelo'} target="_blank">
-          <GitHubLogoIcon color="white" height={32} width={24} />
-        </Link>
+        <div className="h-full w-full overflow-clip rounded-2xl border border-secondary bg-slate-800 text-sm shadow-sm">
+          <Link href={'https://github.com/icaroravelo'} target="_blank"
+            className="flex h-full w-full flex-col items-center justify-center gap-4"
+          >
+            <GitHubLogoIcon color="white" height={32} width={24} />
+            <span className="text-zinc-300">GitHub</span>
+          </Link>
+        </div>
 
-        <Link href={'https://www.linkedin.com/in/icaroravelo/'} target="_blank">
-          <LinkedInLogoIcon color="white" height={32} width={24} />
-        </Link>
+        <div className="h-full w-full overflow-clip rounded-2xl border border-secondary bg-slate-800 text-sm shadow-sm">
+          <Link href={'https://www.linkedin.com/in/icaro-alves-46429b164/'} target="_blank"
+            className="flex h-full w-full flex-col items-center justify-center gap-4"
+          >
+            <LinkedInLogoIcon color="white" height={32} width={24} />
+            <span className="text-zinc-300">LinkedIn</span>
+          </Link>
+        </div>
       </div>
     </div>
   );

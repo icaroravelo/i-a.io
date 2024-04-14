@@ -8,7 +8,9 @@ import Image from 'next/image';
 const Navbar = () => {
     return (
         <NavigationMenu.Root className='relative z-[1] flex justify-between items-center w-screen p-[2rem]'>
-            <nav className='mx-auto flex max-w-[700px] items-center justify-between gap-32 md:gap-44 px-2 py-2 md:px-6'>
+            <nav 
+                className='mx-auto flex max-w-[700px] items-center justify-between gap-32 md:gap-44 px-2 py-2 md:px-6'
+            >
                 <NavigationMenu.Item className='font-bold list-none'>
                     <Link href={'/'}>
                         <svg 
