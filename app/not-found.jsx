@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const Custom404 = () => (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 p-[2rem]">
         <h1 className="text-3xl font-bold tracking-tight text-sky-800">404</h1>
         <p className="text-secondary">
             Uh oh! Esta página não existe, talvez você tenha clicado em um link antigo ou
