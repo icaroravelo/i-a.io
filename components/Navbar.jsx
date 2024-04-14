@@ -57,7 +57,7 @@ const Navbar = () => {
                     </NavigationMenu.Item>
 
                     <NavigationMenu.Item>
-                        <Link href={'/projetos'}>
+                        <Link href={'/portfolio'}>
                             <DesktopIcon width={24} height={32} />
                         </Link>
                     </NavigationMenu.Item>
