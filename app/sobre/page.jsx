@@ -25,14 +25,14 @@ const About = () => {
                                 height={250}
                                 className='animate-in rounded-full mx-auto'
                             />
-                            <p className='animate-in text-zinc-300 mt-10'>{item.description}</p>
+                            <p className='animate-in text-zinc-300 mt-10 w-80 md:max-w-[700px]'>{item.description}</p>
                         </div>
                     ))}
                 </div>
                 
                 <div className='flex flex-col items-center mt-10'>
-                    <h3>Minhas stacks atuais são:</h3>
-                    <div className='grid grid-cols-3 space-x-6 mt-12 mb-10'>
+                    <h3 className='text-zinc-500'>Minhas stacks atuais são:</h3>
+                    <div className='grid grid-cols-3 space-x-3 md:space-x-6 mt-12 mb-10'>
                         {stacks.map((stacks) => (
                             <div key={stacks.id} className='animate-in w-24'>
                                 <Card>
