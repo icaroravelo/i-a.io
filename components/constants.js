@@ -149,3 +149,65 @@ export const categories = [
         image: MachineLearning
     },
 ]
+
+// Projects Assets 
+import Converter from '@/public/converter.jpg';
+import Organizer from '@/public/organizer.jpg';
+
+export const automationProjects = [
+    {
+        id: 1,
+        name: 'Conversor de imagens',
+        description: (
+            <>
+                <p>Conversor de imagens para todos os formatos desejados.</p>
+                <p>Desenvolvido em Python.</p>
+                <p>Usando apelas as bibliotecas Pillow e OS nativas do próprio Python.</p>
+            </>
+        ),
+        image: Converter,
+        stacks: [
+            'Python',
+            'VS Code',        
+            ],       
+        href: 'https://github.com/icaroravelo/automacoes/tree/main/conversor_de_imagens',
+    },
+    {
+        id: 2,
+        name: 'Organizador de arquivos',
+        description: (
+            <>
+                <p>Organizador rápido de arquivos dentro do computador.</p>
+                <p>Movendo arquivos para dentro de pastas de acordo com a extensão.</p>
+                <p>Deixando assim o computador com uma aparência mais clara e concisa de organização.</p>
+            </>
+        ),
+        image: Organizer,
+        stacks: [
+            'Python',
+            'VS Code',        
+            ],       
+        href: 'https://github.com/icaroravelo/automacoes/tree/main/organizador_de_arquivos',
+    },
+]
+
+// Education Assets
+
+export const education = [
+    {
+        id: 1,
+        name: 'Universidade Unopar',
+        course: 'Ciência de Dados',
+        status: 'Cursando',
+        started: '2023',
+        image: "",
+    },
+    {
+        id: 2,
+        name: 'EBAC',
+        course: 'Desenvolvimento Full Stack Python',
+        status: 'Cursando',
+        started: '2024',
+        image: "",
+    }
+]

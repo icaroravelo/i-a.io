@@ -12,7 +12,7 @@ export const metadata = {
 const Portfolio = () => {
     return (
         <div className='flex flex-col gap-12 md:gap-16'>
-            <h1 className='animate-in text-3xl font-bold tracking-tight text-sky-800'>
+            <h1 className='animate-in text-center md:text-left text-3xl font-bold tracking-tight text-sky-800'>
                 Portfolio
             </h1>
 
