@@ -7,6 +7,9 @@ import Asus from '@/public/asus.png';
 import Arcano from '@/public/arcano.png';
 import Chair from '@/public/chair.png';
 import Buds from '@/public/xiaomibuds.png';
+import Verbatim from '@/public/verbatim.png';
+import Seagate from '@/public/seagate.png';
+import Coluna from '@/public/coluna.png';
 
 // About Assets
 import Avatar from '@/public/avatar4.jpg';
@@ -68,6 +71,27 @@ export const gear = [
         model: 'Redmi Buds Lite 4',
         image: Buds
     },
+    {
+        id: 9,
+        name: 'HD Externo',
+        brand: 'Verbatim',
+        model: 'HD External Verbatim 1TB',
+        image: Verbatim
+    },
+    {
+        id: 10,
+        name: 'HD Externo',
+        brand: 'Seagate',
+        model: 'External Hard Drive 1TB',
+        image: Seagate
+    },
+    {
+        id: 11,
+        name: 'Colunas Gaming',
+        brand: 'Bazarão',
+        model: 'Colunas Gaming USB 5.0 Laranjas',
+        image: Coluna
+    }
 ]
 
 export const about = [
@@ -125,6 +149,7 @@ export const stacks = [
 import Automation from '@/public/automation.jpg';
 import DataViz from '@/public/data-viz.jpg';
 import MachineLearning from '@/public/machine-learning.jpg';
+import AutomateSystems from '@/public/sistema-gestão.jpg'
 
 export const categories = [
     {
@@ -148,6 +173,13 @@ export const categories = [
         description: 'Categoria de Machine Learning',
         image: MachineLearning
     },
+    {
+        id: 4,
+        label: 'Sistema de Gestão de Recursos',
+        href: '/portfolio/sistema-de-gestao',
+        description: 'Categoria de sistema de gestão de recursos',
+        image: AutomateSystems
+    }
 ]
 
 // Projects Assets 
@@ -193,7 +225,7 @@ export const automationProjects = [
 
 // Education Assets
 
-export const education = [
+export const educations = [
     {
         id: 1,
         name: 'Universidade Unopar',

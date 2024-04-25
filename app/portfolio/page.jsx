@@ -11,19 +11,19 @@ export const metadata = {
 
 const Portfolio = () => {
     return (
-        <div className='flex flex-col gap-12 md:gap-16'>
-            <h1 className='animate-in text-center md:text-left text-3xl font-bold tracking-tight text-sky-800'>
+        <div className='flex flex-col gap-12 md:gap-4 p-[2rem]'>
+            <h1 className='animate-in text-center text-3xl font-bold tracking-tight text-sky-800'>
                 Portfolio
             </h1>
 
             <div className='animate-in space-y-4 text-center'>
-                <p className='text-zinc-300'>
-                    Aqui eu mostro alguns dos meus projetos:
+                <p className='text-zinc-300 text-xl'>
+                    Aqui eu mostro alguns dos meus projetos
                 </p>
                 <span className='text-zinc-500'>Pode clicar na categoria que deseja ver.</span>
             </div>
 
-            <div className='mb-10 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-14'>
+            <div className='mb-10 grid grid-cols-1 gap-8 mt-4 md:grid-cols-4 md:gap-8'>
                 {categories.map((category) => (
                     <Card key={category.id} disableHalo className='animate-in space-y-4'>
                         <Image 
