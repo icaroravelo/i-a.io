@@ -3,7 +3,6 @@ import React from 'react'
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import Link from 'next/link';
 import { BookmarkIcon, DesktopIcon, EnvelopeClosedIcon, GridIcon, PersonIcon } from '@radix-ui/react-icons';
-import Image from 'next/image';
 
 const Navbar = () => {
     return (
