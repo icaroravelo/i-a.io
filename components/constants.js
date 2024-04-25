@@ -9,7 +9,7 @@ import Chair from '@/public/chair.png';
 import Buds from '@/public/xiaomibuds.png';
 import Verbatim from '@/public/verbatim.png';
 import Seagate from '@/public/seagate.png';
-import Coluna from '@/public/coluna.png';
+import Coluna from '@/public/Coluna.png';
 
 // About Assets
 import Avatar from '@/public/avatar4.jpg';
