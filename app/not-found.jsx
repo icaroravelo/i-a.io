@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { ArrowLeftIcon } from "@radix-ui/react-icons";
 
 export const metadata = {
     title: "404 | Ícaro Alves",
@@ -14,8 +14,9 @@ const Custom404 = () => (
             digitou errado. Tente novamente...
         </p>
         <div className="h-2" />
-        <Link href="/" underline className="text-zinc-500">
-            Voltar para a página principal
+        <Link href="/" underline className="text-zinc-300 flex items-center space-x-2 hover:text-zinc-500 transition-all duration-700">
+            <ArrowLeftIcon />
+            <span>Voltar para a página principal</span>
         </Link>
     </div>
 );
