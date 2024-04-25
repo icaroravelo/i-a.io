@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ícaro Alves | Portfólio",
+  title: "Ícaro Alves",
   description: "Portfólio oficial do cientista de dados Ícaro Alves",
 };
 
