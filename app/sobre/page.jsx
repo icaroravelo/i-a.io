@@ -1,5 +1,4 @@
 import React from 'react'
-import { Metadata } from 'next'
 import { about, stacks } from '@/components/constants';
 import Image from 'next/image';
 import Card from '@/components/CardComponent';
