@@ -12,7 +12,7 @@ const AutomationPage = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                 {automationProjects.map((automation) => (
                     <Card key={automation.id}
-                        className="anime-in space-y-4"
+                        className="animate-in space-y-4"
                     >
                         <h3 className='text-center text-2xl'>{automation.name}</h3>
                         <Image

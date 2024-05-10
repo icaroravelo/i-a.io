@@ -185,6 +185,7 @@ export const categories = [
 // Projects Assets 
 import Converter from '@/public/converter.jpg';
 import Organizer from '@/public/organizer.jpg';
+import Library from '@/public/library.png'
 
 export const automationProjects = [
     {
@@ -220,6 +221,27 @@ export const automationProjects = [
             'VS Code',        
             ],       
         href: 'https://github.com/icaroravelo/automacoes/tree/main/organizador_de_arquivos',
+    },
+]
+
+export const systemProjects = [
+    {
+        id: 1,
+        name: 'Sistema de Biblioteca',
+        description: (
+            <>
+                <p>Este projeto foi desenvolvido como um trabalho para a faculdade de Ciência de Dados.</p>
+                <p>O objetivo era criar um sistema que tivesse a capacidade de automatizar uma biblioteca fictícia.</p>
+                <p>O sistema conté cadastros de usuários e livros, assim como uma parte que cuida dos processos de empréstimos e devoluções, consulta e relatórios.</p>
+                <p>Com este projeto, tirei a nota máxima.</p>
+            </>
+        ),
+        image: Library,
+        stacks: [
+            'Python',
+            'VSCode'
+        ],
+        href: 'https://github.com/icaroravelo/sistema-biblioteca'
     },
 ]
 
